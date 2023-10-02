@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-dots li button::before {
+    background-color: white;
+    border-radius: 100%;
+    font-size: 0;
+}
